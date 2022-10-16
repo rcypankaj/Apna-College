@@ -1,9 +1,9 @@
 package BitManipulation;
 
 import java.util.Scanner;
-// Get Bit
+// Set Bit
 // Start
-public class GetBit {
+public class SetBit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
@@ -12,13 +12,11 @@ public class GetBit {
         System.out.println("Enter the position");
         int pos = sc.nextInt();
         int bitMask = 1 << pos;
-        int res = n & bitMask;
+        int newNumber = n | bitMask;
 
-        if (res != 0) System.out.println("bit was one");
-        else System.out.println("bit was zero");
-
-
+        System.out.println(newNumber);
     }
+
 }
 
 // End
