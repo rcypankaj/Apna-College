@@ -2,7 +2,7 @@ package Recursion;
 
 import java.util.Scanner;
 // CountPathMaze
-// Time Complexity -> O(2^m + n)
+// Time Complexity -> O(2^(m + n))
 // Start
 public class CountPathMaze {
     static int countPaths(int i, int j, int n, int m) {
