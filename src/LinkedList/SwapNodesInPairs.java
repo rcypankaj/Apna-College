@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Start
 public class SwapNodesInPairs {
     public ListNode head;
-    static class ListNode{
+    public static class ListNode{
         int val;
         ListNode next;
         ListNode() {}
